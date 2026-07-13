@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Silent Forest",
+    "author": "Emily Carter",
+    "description": "A thrilling story about friendship, courage, and mysteries hidden deep within an ancient forest.",
+    "category": "Story",
+    "available_quantity": 8,
+    "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript Essentials",
+    "author": "David Miller",
+    "description": "A beginner-friendly guide to JavaScript covering fundamentals, ES6 features, and practical examples.",
+    "category": "Tech",
+    "available_quantity": 12,
+    "image_url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97"
+  },
+  {
+    "id": 3,
+    "title": "Exploring the Universe",
+    "author": "Sophia Green",
+    "description": "Discover the wonders of galaxies, stars, planets, and the science behind the cosmos.",
+    "category": "Science",
+    "available_quantity": 5,
+    "image_url": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564"
+  },
+  {
+    "id": 4,
+    "title": "Whispers of the Sea",
+    "author": "Olivia Brooks",
+    "description": "A heartfelt tale of adventure, hope, and unforgettable journeys across the ocean.",
+    "category": "Story",
+    "available_quantity": 10,
+    "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d"
+  },
+  {
+    "id": 5,
+    "title": "Mastering React",
+    "author": "James Wilson",
+    "description": "Learn React from basics to advanced concepts including hooks, context, and performance optimization.",
+    "category": "Tech",
+    "available_quantity": 7,
+    "image_url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+  },
+  {
+    "id": 6,
+    "title": "The Human Body Explained",
+    "author": "Laura Johnson",
+    "description": "An engaging introduction to human anatomy, organs, and how the body functions.",
+    "category": "Science",
+    "available_quantity": 6,
+    "image_url": "https://images.unsplash.com/photo-1532187643603-ba119ca4109e"
+  },
+  {
+    "id": 7,
+    "title": "The Last Letter",
+    "author": "Daniel Scott",
+    "description": "A touching novel about love, loss, and finding hope through unexpected discoveries.",
+    "category": "Story",
+    "available_quantity": 9,
+    "image_url": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f"
+  },
+  {
+    "id": 8,
+    "title": "Node.js in Practice",
+    "author": "Michael Brown",
+    "description": "Build scalable backend applications using Node.js, Express, and RESTful APIs.",
+    "category": "Tech",
+    "available_quantity": 11,
+    "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c"
+  },
+  {
+    "id": 9,
+    "title": "Secrets of the Ocean",
+    "author": "Anna White",
+    "description": "Explore marine life, underwater ecosystems, and the science behind ocean conservation.",
+    "category": "Science",
+    "available_quantity": 4,
+    "image_url": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21"
+  },
+  {
+    "id": 10,
+    "title": "Dreams Beyond Tomorrow",
+    "author": "Grace Hall",
+    "description": "A captivating novel that follows the lives of dreamers chasing impossible ambitions.",
+    "category": "Story",
+    "available_quantity": 13,
+    "image_url": "https://images.unsplash.com/photo-1516979187457-637abb4f9353"
+  },
+  {
+    "id": 11,
+    "title": "Next.js Complete Guide",
+    "author": "Robert Lee",
+    "description": "A practical guide to building modern web applications using Next.js and React.",
+    "category": "Tech",
+    "available_quantity": 8,
+    "image_url": "https://images.unsplash.com/photo-1516321497487-e288fb19713f"
+  },
+  {
+    "id": 12,
+    "title": "Physics Made Easy",
+    "author": "Sarah Adams",
+    "description": "Understand the fundamentals of motion, energy, forces, and modern physics with simple explanations.",
+    "category": "Science",
+    "available_quantity": 10,
+    "image_url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d"
+  }
+]

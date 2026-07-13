@@ -1,0 +1,26 @@
+[
+  {
+    
+    "id": 1,
+    "name": "All",
+    "slug": "all"
+  },
+  {
+   
+    "id": 2,
+    "name": "Story",
+    "slug": "story"
+  },
+  {
+   
+    "id": 3,
+    "name": "Tech",
+    "slug": "tech"
+  },
+  {
+    
+    "id": 4,
+    "name": "Science",
+    "slug": "science"
+  }
+]
