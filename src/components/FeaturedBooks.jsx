@@ -9,10 +9,10 @@ const FeaturedBooks = async () => {
     // console.log(topfeatured)
 
     return (
-        <div className='container mx-auto mb-4'>
-            <h1 className='text-3xl font-bold mt-5 flex justify-center text-center'>Featured Books</h1>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-9 mt-6'>
-                {topfeatured.map(featured => <div key={featured.id} className='card bg-amber-100 w-96 shadow-sm'>
+        <div className='container mx-auto mt-9 px-10 bg-amber-100'>
+            <h1 className='text-3xl text-[#0B2D5B] font-bold pt-6 flex justify-center text-center'>Featured Books</h1>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-9 mt-6 pb-8'>
+                {topfeatured.map(featured => <div key={featured.id} className='card bg-base-100 shadow-sm'>
                     
                         
                             <Image
