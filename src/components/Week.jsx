@@ -7,8 +7,8 @@ const Week = async () => {
     console.log(featured)
     const topfeatured = featured.slice(4, 8)
     return (
-        <div className='container mx-auto bg-amber-100 mt-7'> 
-            <div className='flex flex-col md:flex-row justify-between pt-4'>
+        <div className='container mx-auto bg-amber-100 mt-7 p-10'> 
+            <div className='flex flex-col md:flex-row justify-between '>
             <h2 className='text-[#0B2D5B] text-3xl font-bold'>Best seller of the week</h2>
             <div>
             <button className="btn bg-[#F39C12] text-[#0B2D5B] font-semibold text-xl">VIEW ALL</button>
@@ -18,7 +18,7 @@ const Week = async () => {
              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6 pb-8'>
                              {topfeatured.map(featured => <div key={featured.id} className='card bg-base-100 shadow-sm'>
                                  
-                                     
+                                      <figure className='p-7'>
                                          <Image
                                              src={featured.image_url}
                                              alt={featured.title}
@@ -26,7 +26,7 @@ const Week = async () => {
                                              height={200}
                                              className='w-full h-64 object-cover rounded-xl'
                                          />
-                                    
+                                    </figure>
                                      <div className="card-body items-center text-center">
                                          <h2 className="card-title">{featured.title}</h2>
                                          <h3>{featured.author}</h3>
