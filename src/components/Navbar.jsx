@@ -14,14 +14,20 @@ const Navbar = () => {
                     <ul
                         tabIndex="-1"
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-semibold text-xltext-[#0B2D5B]">
-                        <li ><Link href={'/'}>Home</Link></li>
-                        <li><Link href={'/books'}>All Books</Link></li>
-                        <li><Link href={'/profile'}>My Profile</Link></li>
+                        <li >
+                            <Link href={'/'}>Home</Link>
+                        </li>
+                        <li>
+                            <Link href={'/all-book'}>All Books</Link>
+                        </li>
+                        <li>
+                            <Link href={'/my-profile'}>My Profile</Link>
+                        </li>
                     </ul>
                 </div>
                 <div className='flex items-center justify-between gap-3'>
                     <div>
-                    <Image src={logo} alt='logo' width={60} height={60} />
+                        <Image src={logo} alt='logo' width={60} height={60} />
                     </div>
                     <div>
                         <h4 className='font-bold text-2xl text-[#0B2D5B]'>Book Borrow</h4>
@@ -30,16 +36,22 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex items-center text-center">
                 <ul className="menu menu-horizontal px-1">
-                    <li><Link href={'/'}>Home</Link></li>
-                    <li><Link href={'/books'}>All Books</Link></li>
-                    <li><Link href={'/profile'}>My Profile</Link></li>
+                    <li>
+                        <Link href={'/'}>Home</Link>
+                    </li>
+                    <li>
+                        <Link href={'/all-book'}>All Books</Link>
+                    </li>
+                    <li>
+                        <Link href={'/my-profile'}>My Profile</Link>
+                    </li>
                 </ul>
             </div>
             <div className='navbar-end gap-4'>
                 <h2 className='font-semibold text-xl text-[#0B2D5B]'>Hello</h2>
-            <button className="btn  w-25 bg-[#F39C12] text-[#0B2D5B] font-semibold text-xl">
-                <Link href={'/login'}>Login</Link>
-            </button>
+                <button className="btn  w-25 bg-[#F39C12] text-[#0B2D5B] font-semibold text-xl">
+                    <Link href={'/login'}>Login</Link>
+                </button>
             </div>
         </div>
     );
